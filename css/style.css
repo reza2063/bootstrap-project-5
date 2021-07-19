@@ -402,6 +402,10 @@ Small devices (landscape phones, less than 768px)
 	flex-wrap: inherit!important;
 }
 
+.hero_content h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
 
 .style_nav{
 	width:100%!important;
@@ -426,20 +430,19 @@ Small devices (landscape phones, less than 768px)
 
 @media ( min-width: 321px ) and (max-width: 575px) { 
 
- /*
-
 .hero_content h2 {
     font-size: 1.5em;
-    padding-bottom: 0 !important;
     text-align: center;
 }
+
+/*
 
 .hero_content {
     top: 65%;
 }
 
-
 */
+
 .border{
 	height:40%;
 }
